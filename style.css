@@ -24,14 +24,14 @@
     background-color: red;
     display: inline-block;
     vertical-align: top;
-    padding: 1% 1% 1% 1%;
+    padding: 2% 2% 2% 2%;
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
     display: inline-block;
-    margin-left: 1%;
+    margin-right: 2%;
     margin-bottom: 2%;
 }
 #advertisement {
@@ -39,5 +39,9 @@
     width: 660px;
     background-color: purple;
     margin-bottom: 4%;
-    margin-left: 1%;
+    margin-top: 2%;
+}
+.row {
+    display: flex;
+    align-items: flex-start;
 }
